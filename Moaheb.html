@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ركن الفنون والموسيقى | تجربة بصرية أسطورية</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="aos.css">
+    
+    <link rel="stylesheet" href="Moaheb.css">
+</head>
+<body>
+
+    <nav class="custom-nav">
+        <div class="container nav-wrapper">
+            <a class="logo" href="#" data-aos="fade-left"><span>ركن</span> الأدب والفنون</a>
+            <button class="menu-toggle" aria-label="Open Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a class="nav-link active" href="#home">الرئيسية</a></li>
+                <li><a class="nav-link" href="#talents">اكتشف المواهب</a></li>
+                <li><a class="nav-link btn-join-nav" href="#join">انضم إلينا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero-section" id="home">
+    <div id="hero-slider">
+        <div class="slide active" style="background-image: url('notes\ music.jpg.jpeg')"></div>
+        <div class="slide" style="background-image: url('note\ music.jpg.jpeg')"></div>
+        <div class="slide" style="background-image: url('head\ mic.jpg.jpeg')"></div>
+        <div class="slide" style="background-image: url('vilion.jpg.jpeg')"></div>
+        <div class="slide" style="background-image: url('blue\ gutar.jpg.jpeg')"></div>
+        <div class="slide" style="background-image: url('gutar.jpg.jpeg')"></div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="container content-box">
+        <h1 class="hero-title" data-aos="zoom-out-up" data-aos-duration="1000">فن يجمعنا..</h1> 
+        <h1 class="hero-title" data-aos="zoom-out-up" data-aos-delay="200">مركز <span class="text-glow">أحمد</span> يلهمنا</h1>
+        <br>
+        <p class="hero-lead" data-aos="fade-up" data-aos-delay="400">أهلا وسهلا بكم في الملتقى الخامس عشر</p>
+        <div class="hero-btns" data-aos="fade-up" data-aos-delay="600">
+            <a href="#talents" class="btn-filter">مشاهدة المعرض</a>
+            <a href="#join" class="btn-filter">سجل موهبتك الآن</a>
+        </div>
+    </div>
+    
+    <div class="scroll-indicator"></div>
+</section>
+
+    <section class="talents-section" id="talents">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-heading">مبدعي مركز <span class="text-glow" style="color: #ffb400;">أحمد</span></h2>
+                <div class="filter-buttons" data-aos="fade-up">
+                    <button class="btn-filter active" data-filter="all">الكل</button>
+                    <button class="btn-filter" data-filter="music">الموسيقى</button>
+                    <button class="btn-filter" data-filter="poetry">الشعر</button>
+                    <button class="btn-filter" data-filter="singing">الإنشاد</button>
+                    <button class="btn-filter" data-filter="arabic-font">الخط العربي</button>
+                    <button class="btn-filter" data-filter="voice-over">التعليق الصوتي</button>
+                    <button class="btn-filter" data-filter="content-writing">كتابة المحتوى</button>
+                    <button class="btn-filter" data-filter="languages">اللغات</button>
+                    <button class="btn-filter" data-filter="photography">التصوير</button>
+                    <button class="btn-filter" data-filter="design">التصميم والمونتاج</button>
+                </div>
+            </div>
+
+            <div class="talent-grid">
+                <div class="talent-item music" data-aos="fade-up" data-aos-delay="100">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="" alt="Music">
+                            <span class="badge-cat">موسيقى</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">محمد عمر السقاف</h4>
+                            <br>
+                            <p>عازف ناي ينقل روح التراث في أروقة السكن.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('محمد عمر السقاف', [
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item poetry" data-aos="fade-up" data-aos-delay="100">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600" alt="Poet">
+                            <span class="badge-cat">شعر</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">الحسن ابراهيم بن طالب</h4>
+                            <br>
+                            <p>حنجرة شعرية تنبض بالحب والوطن في كل بيت شعري.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('الحسن ابراهيم بن طالب', [
+    {type: 'text', title: 'مقال .....', url: ''},
+    {type: 'text', title: 'مقال.....', url: ''},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item poetry" data-aos="fade-up" data-aos-delay="100">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600" alt="Poet">
+                            <span class="badge-cat">شعر</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">سعيد مبارك بن عويضان</h4>
+                            <br>
+                            <p>ناظم للقوافي يمتلك لغة شعرية عذبة تأسر الألباب.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('سعيد مبارك بن عويضان', [
+    {type: 'text', title: 'مقال .....', url: ''},
+    {type: 'text', title: 'مقال.....', url: ''},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item poetry" data-aos="fade-up" data-aos-delay="100">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600" alt="Poet">
+                            <span class="badge-cat">شعر</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">صالح عمر الجوهي</h4>
+                            <br>
+                            <p>قلم يكتب بمداد الروح، ليصيغ أجمل المشاعر في قالب شعري.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('صالح عمر الجوهي', [
+    {type: 'text', title: 'مقال .....', url: ''},
+    {type: 'text', title: 'مقال.....', url: ''},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item poetry" data-aos="fade-up" data-aos-delay="100">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600" alt="Poet">
+                            <span class="badge-cat">شعر</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">عادل سعيد بن علي</h4>
+                            <br>
+                            <p>شاعر يرسم بالكلمات لوحات تعجز الألوان عن تجسيدها.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('عادل سعيد بن علي', [
+    {type: 'text', title: 'مقال .....', url: ''},
+    {type: 'text', title: 'مقال.....', url: ''},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item poetry" data-aos="fade-up" data-aos-delay="100">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600" alt="Poet">
+                            <span class="badge-cat">شعر</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">عبدالرحمن مبروك بامنصور</h4>
+                            <br>
+                            <p>بلاغة في القول وقوة في التعبير تحيي مآثر اللغة العربية.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openPortfolio('عبدالرحمن مبروك بامنصور', [
+    {type: 'text', title: 'مقال .....', url: ''},
+    {type: 'text', title: 'مقال.....', url: ''},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item poetry" data-aos="fade-up" data-aos-delay="100">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600" alt="Poet">
+                            <span class="badge-cat">شعر</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">محمد سعيد العليي</h4>
+                            <br>
+                            <p>مبدع في الشعر الفصيح، تتسم قصائده بالعمق والجزالة.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openPortfolio('محمد سعيد العليي', [
+    {type: 'text', title: 'مقال .....', url: ''},
+    {type: 'text', title: 'مقال.....', url: ''},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item singing" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="Gemini_Generated_Image_dpdt3gdpdt3gdpdt.png" alt="Singer">
+                            <span class="badge-cat">إنشاد</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">إبراهيم سالم بلحسر</h4>
+                            <br>
+                            <p>أداء متميز يجمع بين قوة الصوت وعذوبة الإحساس صوت ندي يحلق بالمستمعين في آفاق من الطمأنينة والسكينة.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('إبراهيم سالم بلحسر', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: 'video/طال ليلي.mp4'},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'https://www.instagram.com/e_blhzr?igsh=MW5lYnRnYXg0czN4dQ==', qrUrl: 'QR Blhzr.png'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item singing" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="Gemini_Generated_Image_dpdt3gdpdt3gdpdt.png" alt="Singer">
+                            <span class="badge-cat">إنشاد</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">أمين سعيد بالليل</h4>
+                            <br>
+                            <p>إبداع في المقامات الإنشادية، يلامس القلوب بصدق أدائه رسالة فنية سامية تتجسد في كل أنشودة يقدمها.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('أمين سعيد بالليل', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item singing" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="Gemini_Generated_Image_dpdt3gdpdt3gdpdt.png" alt="Singer">
+                            <span class="badge-cat">إنشاد</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">محمد عمر السقاف</h4>
+                            <br>
+                            <p>حنجرة ذهبية تصدح بأعذب الألحان الروحانية والمدائح منشد يمتلك خامة صوتية فريدة وقدرة عالية على التحكم في الطبقات.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('محمد عمر السقاف', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item arabic-font" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">الخط العربي</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">محمد عوض باعوض</h4>
+                            <br>
+                            <p>فنان يطوع الحبر ليخلق من الحروف تشكيلات هندسية مبهرة.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('محمد عوض باعوض', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item voice-over" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">التعليق الصوتي</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">أكرم سالم بامنصور</h4>
+                            <br>
+                            <p>براعة في تلوين الصوت بما يتناسب مع مختلف القوالب الإذاعية.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('أكرم سالم بامنصور', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item voice-over" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">التعليق الصوتي</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">الحسن ابراهيم بن طالب</h4>
+                            <br>
+                            <p>خامة صوتية مميزة تجمع بين القوة والوضوح والجمال.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('الحسن ابراهيم بن طالب', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item voice-over" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">التعليق الصوتي</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">عبدالله سهل الزبيدي</h4>
+                            <br>
+                            <p>صوت رخيم يمنح النصوص حياةً ومعنىً يتجاوز الكلمات.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('عبدالله سهل الزبيدي', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item voice-over" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">التعليق الصوتي</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">محمد سعيد باطوق العمودي</h4>
+                            <br>
+                            <p>مبدع في الأداء الوثائقي والتمثيل الصوتي باحترافية عالية.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('محمد سعيد باطوق العمودي', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item content-writing" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">كتابة محتوى</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">حسام الجنيد</h4>
+                            <br>
+                            <p>قلم مبدع يصيغ الأفكار المعقدة في قوالب لغوية شيقة.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('حسام الجنيد', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item content-writing" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">كتابة محتوى</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">سعيد مبارك بن عويضان</h4>
+                            <br>
+                            <p>مهارة في سرد القصص (Storytelling) تجذب القارئ حتى آخر كلمة.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio(' سعيد مبارك بن عويضان', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item content-writing" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">كتابة محتوى</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">عادل سعيد بن علي</h4>
+                            <br>
+                            <p>صانع محتوى ملهم، يمتلك لغة بليغة وقدرة على التأثير المجتمعي.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('عادل سعيد بن علي', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item content-writing" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">كتابة محتوى</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">عبدالرحمن بامنصور</h4>
+                            <br>
+                            <p>مبدع في كتابة السيناريوهات والمقالات برؤية فنية فريدة.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('عبدالرحمن مبروك بامنصور', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item languages" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">لغات</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">حسام الجنيد</h4>
+                            <br>
+                            <p>عقل منفتح يتسع لجماليات اللغات العالمية وتاريخها العريق.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('حسام الجنيد', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item languages" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">لغات</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">عمر أنور يربوع</h4>
+                            <br>
+                            <p>شغف عالي باللغات يجعله يتحدث بطلاقة مذهلة.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('عمر أنور يربوع', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item photography" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">التصوير</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">أسامة الجابري</h4>
+                            <br>
+                            <p>عين فنية ترى الجمال في أصغر التفاصيل وتوثقه بعدستها.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('أسامة الجابري', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item photography" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">التصوير</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">عبدالله التميمي</h4>
+                            <br>
+                            <p>متخصص في تصوير "البورتريه" والحياة اليومية بلمسة فنية.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('عبدالله التميمي', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item photography" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">التصوير</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">عمر يحيى الزبيدي</h4>
+                            <br>
+                            <p>مصور يمتلك القدرة على إيقاف الزمن في كادر واحد مذهل.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('عمر يحيى الزبيدي', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item photography" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Singer">
+                            <span class="badge-cat">التصوير</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">هادي علي السقاف</h4>
+                            <br>
+                            <p>عدسة توثق نبض السكن ولحظاته التي لا تنسى.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('هادي علي السقاف', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item design" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="Gemini_Generated_Image_dpdt3gdpdt3gdpdt.png" alt="Design">
+                            <span class="badge-cat">التصميم والمونتاج</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">إبراهيم سالم بلحسر</h4>
+                            <br>
+                            <p>فنان في دمج الألوان والعناصر ليخلق تصميمات عصرية وجذابة.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('إبراهيم سالم بلحسر', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item design" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Design">
+                            <span class="badge-cat">التصميم والمونتاج</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">أحمد عمر الصاعي</h4>
+                            <br>
+                            <p>مهندس الرؤية البصرية يخرج الفيديوهات بأعلى معايير الجودة العالمية وتصميم الشعارات.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('أحمد عمر الصاعي', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item design" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Design">
+                            <span class="badge-cat">التصميم والمونتاج</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">هادي علي السقاف</h4>
+                            <br>
+                            <p>براعة في استخدام المؤثرات البصرية لإضافة لمسة سحرية للتصميم.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('هادي علي السقاف', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item design" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Design">
+                            <span class="badge-cat">التصميم والمونتاج</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">محمد سعيد باطوق العمودي</h4>
+                            <br>
+                            <p>مصمم جرافيك يبتكر هويات بصرية تعبر عن جوهر المشاريع.</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('محمد سعيد باطوق العمودي', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talent-item design" data-aos="fade-up" data-aos-delay="200">
+                    <div class="talent-card">
+                        <div class="img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516280440614-37939bb92583?w=600" alt="Design">
+                            <span class="badge-cat">التصميم والمونتاج</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 style="color: #ffb400;">محمد عمر السقاف</h4>
+                            <br>
+                            <p>خبير في المونتاج السينمائي يمتلك حساً إيقاعياً عالياً .</p>
+                            <br>
+                            <br>
+                            <button type="information" class="btn btn-filter pulse-animation" onclick="openExpertPortfolio('محمد عمر السقاف', [
+    {type: 'video', title: 'أنشودة طال ليلي', url: ''},
+    {type: 'video', title: 'عزف عود', url: 'رابط_الفيديو'},
+    {type: 'instagram', title: 'حسابي في إنستقرام', url: 'رابط_الحساب', qrUrl: 'رابط_صورة_الباركود'}
+])">مشاهدة الموهبة</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="join-section">
+        <div class="container" data-aos="zoom-in">
+            <div class="glass-card">
+                <h2 class="section-heading text-center">كن جزءاً من الحكاية</h2>
+                <p class="text-center mb-5">موهبتك تستحق أن يراها العالم، انضم إلينا الآن.</p>
+                <form class="join-form">
+                    <input type="text" class="custom-input" placeholder="اسمك الكريم" required>
+                    <select class="custom-input" required>
+                        <option selected disabled>اختر موهبتك</option>
+                        <option>موسيقى</option>
+                        <option>شعر</option>
+                        <option>إنشاد</option>
+                        <option>الخط العربي</option>
+                        <option>التعليق الصوتي</option>
+                        <option>كتابة المحتوى</option>
+                        <option>لغات</option>
+                        <option>التصوير</option>
+                    </select>
+                    <button type="submit" class="btn btn-accent pulse-animation">إرسال الطلب</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+    <div class="footer-glow"></div> <div class="container">
+        <div class="footer-grid">
+            
+            <div class="footer-col" data-aos="fade-up">
+                <a class="logo footer-logo" href="#"><span>ركن</span> الأدب والفنون</a>
+                <p class="footer-desc">
+                    ركن الأدب والفنون هو مساحة تجمع مواهب طلاب مركز أحمد لعرض إبداعاتهم وأعمالهم الأدبية والفنية المتنوعة في أجواء راقية وهادئة تحتفي بالجمال وتمنح الموهوبين فرصة للتعبير عن إحساسهم وإيصال رسائلهم الفنية بذوق وإلهام.
+                </p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col" data-aos="fade-up" data-aos-delay="100">
+                <h4 class="footer-title">روابط تهمك</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#talents">معرض المبدعين</a></li>
+                    <li><a href="#join">طلب انضمام</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col" data-aos="fade-up" data-aos-delay="200">
+                <h4 class="footer-title">تواصل مباشر</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> المكلا - روكب - بجانب مسجد النعيم</li>
+                    <li><i class="fas fa-envelope"></i>ebrahimblhzr@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> 779010014</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 جميع الحقوق محفوظة لـ <span>Future Code</span></p>
+            <div class="designer-tag">ابراهيم سالم عوض بلحسر</div>
+        </div>
+    </div>
+</footer>
+
+<div id="portfolioModal" class="final-modal-overlay">
+    <div class="final-modal-card">
+        <button class="final-close-btn" onclick="closeModal()">&times;</button>
+        
+        <div class="final-modal-header">
+            <h2 id="modalName">اسم الموهبة</h2>
+            <div id="currentWorkTitle" class="final-work-title">اسم الأغنية أو المقطع</div>
+            <div class="final-gold-line"></div>
+        </div>
+
+        <div class="final-video-stage">
+            <div id="mediaContainer"></div>
+        </div>
+
+        <div class="final-playlist-dock">
+            <div id="playlist" class="final-dock-inner">
+                </div>
+        </div>
+    </div>
+</div>
+
+    <script src="aos.js"></script>
+    <script src="Moaheb.js"></script>
+</body>
+</html>
